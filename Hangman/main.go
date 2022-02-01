@@ -281,7 +281,7 @@ func css(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/jeu", css)
 	http.Handle("/c", http.StripPrefix("/c", fs))
-	print("Lancement de la page instancier sur : 127.0.0.1:8888")
+	print("Lancement de la page instancier sur : 127.0.0.1:8888/jeu")
 	// premier paramètre string url, après le port
 	guess = ""
 	tmpl = template.Must(template.ParseFiles("index.html"))
