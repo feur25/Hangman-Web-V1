@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <body style="background-image: url(static/resources/fond.jpg); background-repeat: no-repeat; background-size: cover;">
+      <div id="formBody" style="display: flex;justify-content: center;align-items: center;height: 50vh; flex-direction: column;">
+        <h1>Facile / Normale / Difficile</h1><br/>
+      <form method="POST" id="inputForm">
+          <input id="message" name="message" value="Facile" type="text"><br/>
+          <button type="submit" style="width:100px;">Validez sont mode</button><br/>
+      </form>
+      <div class="all">
+        <h1>Hangman Web</h1>
+        <h2>Tente ta putain de chance</h2>
+        <form method="post">
+          <label>word:</label>
+          <input class="first" type="text" name="w">
+          <div class="second">
+            <input type="submit" value="Envoyez !!">
+          </div>
+        </form>
+        {{.Message}}
+        <p>Tu as {{.Guesses}}pv/10pv</p>
+        {{.Hangman}}
+        {{.Display}}<br/>
+        <p>Mauvaisse lettre découvertes : {{.WrongGuesses2}}</p>
+        <p>Tu as gagné au total {{.Win}}parties, tu es a ta {{.Ratio}}ème victoire(s) d'affilé(s)</p>
+        </div>     
+      </div>
+      <div id="serverMessageBox" style="text-align: center;">
+      </div>
+  <script src="/static/main.js"></script>
+</html>

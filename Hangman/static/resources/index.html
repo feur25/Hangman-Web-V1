@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="all">
+      <h1>Hangman Web</h1>
+      <h2>Tente ta putain de chance</h2>
+      <form method="post">
+        <label>word:</label>
+        <input class="first" type="text" name="w">
+        <div class="second">
+          <input type="submit" value="Envoyez !!">
+        </div>
+      </form>
+      {{.Message}}
+      <p>Tu as {{.Guesses}}pv/10pv</p>
+      {{.Hangman}}
+      {{.Display}}
+      </div>
+  </body>
+</html>
