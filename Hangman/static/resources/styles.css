@@ -1,0 +1,33 @@
+body{
+    background-image: url("fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    border-radius: 15%;
+    border: 2px solid gold;
+    width: 250px;
+}
+h1{
+    font-family: cursive;
+    color: brown;
+    font-size: 70px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+.second input {
+    margin: auto auto auto 4.5vw;
+    background-color: rgba(255, 222, 32, 0.795);
+    color: white;
+  }
+.second input:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <body>
+      <div class="mid">
+      <div class="all">
+        <div class="niveau">
+        <form method="post">
+        <input type="submit" name="niveau" value="Facile">
+        <input type="submit" name="niveau" value="Normale">
+        <input type="submit" name="niveau" value="Difficile">
+      </form>
+    </div>
+        <h1>Hangman Web</h1>
+        <h2>Tente ta chance</h2>
+        <form method="post">
+          <label>word:</label>
+          <input class="first" type="text" name="w">
+          <div class="second">
+            <input type="submit" value="Envoyez !!">
+          </div>
+        </form>
+        <p id="white">{{.Message}}</p>
+        <p id="green">Tu as {{.Guesses}}pv/10pv</p>
+        <p id="red">{{.Hangman}}</p>
+        <p id="display">{{.Display}}</p><br/>
+        <p>Mauvaisse lettre découvertes : {{.WrongGuesses2}}</p>
+        <p>Tu as gagné au total {{.Win}}parties, tu es a ta {{.Ratio}}ème victoire(s) d'affilé(s)</p>
+        </div>     
+      </div>
+    </div>
+</html>

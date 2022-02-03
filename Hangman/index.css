@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+}
+h1{
+    margin: 20vh;
+}
+.titre{
+    color: brown;
+}
+.blue {
+    background-color: blue;
+    color: white;
+  }
+  .blue {
+    background-color: blue;
+    color: rgb(177, 12, 12);
+  }

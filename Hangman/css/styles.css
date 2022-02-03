@@ -1,0 +1,67 @@
+body{
+    background-image: url("img/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid{
+    margin: 10vh auto auto auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 750px;
+    background-color: rgba(222, 184, 135, 0.712);
+    border-radius: 10%;
+}
+.first{
+    border-radius: 15%;
+    border: 2px solid gold;
+    width: 250px;
+}
+h1{
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-family: cursive;
+    color: transparent;
+    font-size: 70px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+.second input {
+    margin: auto auto auto 4.5vw;
+    background-color: rgba(255, 222, 32, 0.795);
+    color: white;
+  }
+.second input:hover{
+    cursor: pointer;
+}
+.niveau input:hover {
+    cursor: pointer;
+}
+#white{
+    font-size: 25px;
+    color: white;
+}
+#green{
+    font-size: 18px;
+    color: greenyellow;
+}
+.niveau input {
+    border-radius: 12%;
+    border:  2px dashed gold;
+}
+.niveau{
+    border-bottom: 2px solid white;
+}
+#display{
+    font-size: 35px;
+}
+#red{
+    color: rgb(175, 16, 16);
+}
